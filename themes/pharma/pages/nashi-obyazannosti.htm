@@ -1,0 +1,21 @@
+title = "Our responsibilities"
+url = "/our-responsibilities"
+layout = "page"
+description = "Our responsibilities"
+meta_title = "Our responsibilities"
+meta_description = "Our responsibilities"
+is_hidden = 0
+
+[viewBag]
+localeTitle[ru] = "Наши обязанности"
+localeDescription[ru] = "Наши обязанности"
+localeMeta_title[ru] = "Наши обязанности"
+localeMeta_description[ru] = "Наши обязанности"
+
+[localePicker]
+forceUrl = 0
+==
+<div style="display: none">{% component 'localePicker' %}</div>
+
+{% set imgAssets = 'assets/images/'|theme %}
+{% content 'our-responsibilities.htm' imgAssets = imgAssets%}

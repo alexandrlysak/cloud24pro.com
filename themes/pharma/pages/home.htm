@@ -1,0 +1,30 @@
+title = "CLOUD COMPANY S.R.L. main page"
+url = "/"
+layout = "default"
+meta_title = "CLOUD COMPANY S.R.L. main page"
+meta_description = "CLOUD COMPANY S.R.L."
+is_hidden = 0
+
+[viewBag]
+localeTitle[ru] = "Главная страница"
+localeMeta_title[ru] = "CLOUD COMPANY S.R.L. главная страница"
+
+[localePicker]
+forceUrl = 0
+==
+<div style="display: none">{% component 'localePicker' %}</div>
+{% set imgAssets = 'assets/images/'|theme %}
+
+<div id="index-content">
+
+    {% content 'home-page-about-us.htm' imgAssets = imgAssets %}
+    
+    {% content 'home-page-our-businesses.htm' imgAssets = imgAssets %}
+    
+    {% content 'home-page-our-products.htm' imgAssets = imgAssets %}
+    
+    {% content 'home-page-research-and-development.htm' imgAssets = imgAssets %}
+    
+    {% content 'home-page-corporate-social-responsibility.htm' imgAssets = imgAssets %}
+
+</div>

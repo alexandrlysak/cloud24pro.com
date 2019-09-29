@@ -1,0 +1,24 @@
+1569747046a:1:{s:22:"nashi-obyazannosti.htm";a:14:{s:8:"fileName";s:22:"nashi-obyazannosti.htm";s:7:"content";s:653:"title = "Our responsibilities"
+url = "/our-responsibilities"
+layout = "page"
+description = "Our responsibilities"
+meta_title = "Our responsibilities"
+meta_description = "Our responsibilities"
+is_hidden = 0
+
+[viewBag]
+localeTitle[ru] = "Наши обязанности"
+localeDescription[ru] = "Наши обязанности"
+localeMeta_title[ru] = "Наши обязанности"
+localeMeta_description[ru] = "Наши обязанности"
+
+[localePicker]
+forceUrl = 0
+==
+<div style="display: none">{% component 'localePicker' %}</div>
+
+{% set imgAssets = 'assets/images/'|theme %}
+{% content 'our-responsibilities.htm' imgAssets = imgAssets%}";s:5:"mtime";i:1565964840;s:6:"markup";s:174:"<div style="display: none">{% component 'localePicker' %}</div>
+
+{% set imgAssets = 'assets/images/'|theme %}
+{% content 'our-responsibilities.htm' imgAssets = imgAssets%}";s:4:"code";N;s:5:"title";s:20:"Our responsibilities";s:3:"url";s:21:"/our-responsibilities";s:6:"layout";s:4:"page";s:11:"description";s:20:"Our responsibilities";s:10:"meta_title";s:20:"Our responsibilities";s:16:"meta_description";s:20:"Our responsibilities";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:4:{s:11:"localeTitle";a:1:{s:2:"ru";s:31:"Наши обязанности";}s:17:"localeDescription";a:1:{s:2:"ru";s:31:"Наши обязанности";}s:16:"localeMeta_title";a:1:{s:2:"ru";s:31:"Наши обязанности";}s:22:"localeMeta_description";a:1:{s:2:"ru";s:31:"Наши обязанности";}}s:12:"localePicker";a:1:{s:8:"forceUrl";s:1:"0";}}}

@@ -1,0 +1,15 @@
+title = "Our businesses"
+url = "/our-businesses"
+layout = "page"
+is_hidden = 0
+
+[viewBag]
+localeTitle[ru] = "Наши предприятия"
+
+[localePicker]
+forceUrl = 0
+==
+<div style="display: none">{% component 'localePicker' %}</div>
+
+{% set imgAssets = 'assets/images/'|theme %}
+{% content 'our-businesses.htm' imgAssets = imgAssets%}

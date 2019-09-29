@@ -1,0 +1,20 @@
+title = "Careers"
+url = "/careers"
+layout = "page"
+description = "Careers"
+meta_title = "Careers"
+meta_description = "Careers"
+is_hidden = 0
+
+[localePicker]
+forceUrl = 0
+
+[viewBag]
+localeTitle[ru] = "Вакансии"
+localeMeta_title[ru] = "Вакансии"
+localeMeta_description[ru] = "Вакансии"
+==
+<div style="display: none">{% component 'localePicker' %}</div>
+
+{% set imgAssets = 'assets/images/'|theme %}
+{% content 'careers.htm' imgAssets = imgAssets%}

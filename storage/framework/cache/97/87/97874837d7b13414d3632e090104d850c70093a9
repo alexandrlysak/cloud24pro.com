@@ -1,0 +1,124 @@
+1569724745a:1:{s:22:"home-page-about-us.htm";a:6:{s:8:"fileName";s:22:"home-page-about-us.htm";s:7:"content";s:1215:"<div class="index-about clearfix" id="aboutUs">
+	<div class="index-about-left">
+		<div class="container">
+			<div class="index-about-content max-width">
+
+				<h4 class="index-tit">ABOUT US</h4>
+
+				<h5>We are constantly working to increase the level of integration in research.</h5>
+
+				<p>We are an experienced company providing the full range of laboratory tests of products, materials required for certification and standardization.</p><span class="read-more"><a href="/our-company">Read More</a></span></div></div></div>
+	<div class="index-about-right">
+
+		<ul class="index-about-list no-type clearfix">
+			<li>
+				<div class="inner-li">
+					<div class="img"><img src="{imgAssets}/index_about_img2.png" class="fr-fic fr-dii"></div>
+
+					<p>
+						<br>
+					</p>
+				</div>
+			</li>
+			<li>
+				<div class="inner-li">
+					<div class="img"><img src="{imgAssets}/index_about_img3.png" class="fr-fic fr-dii"></div>
+
+					<p>
+						<br>
+					</p>
+				</div>
+			</li>
+			<li>
+				<div class="inner-li">
+					<div class="img"><img src="{imgAssets}/index_about_img4.png" class="fr-fic fr-dii"></div>
+
+					<p>
+						<br>
+					</p>
+				</div>
+			</li>
+		</ul>
+	</div></div>";s:5:"mtime";i:1569297165;s:6:"markup";s:1215:"<div class="index-about clearfix" id="aboutUs">
+	<div class="index-about-left">
+		<div class="container">
+			<div class="index-about-content max-width">
+
+				<h4 class="index-tit">ABOUT US</h4>
+
+				<h5>We are constantly working to increase the level of integration in research.</h5>
+
+				<p>We are an experienced company providing the full range of laboratory tests of products, materials required for certification and standardization.</p><span class="read-more"><a href="/our-company">Read More</a></span></div></div></div>
+	<div class="index-about-right">
+
+		<ul class="index-about-list no-type clearfix">
+			<li>
+				<div class="inner-li">
+					<div class="img"><img src="{imgAssets}/index_about_img2.png" class="fr-fic fr-dii"></div>
+
+					<p>
+						<br>
+					</p>
+				</div>
+			</li>
+			<li>
+				<div class="inner-li">
+					<div class="img"><img src="{imgAssets}/index_about_img3.png" class="fr-fic fr-dii"></div>
+
+					<p>
+						<br>
+					</p>
+				</div>
+			</li>
+			<li>
+				<div class="inner-li">
+					<div class="img"><img src="{imgAssets}/index_about_img4.png" class="fr-fic fr-dii"></div>
+
+					<p>
+						<br>
+					</p>
+				</div>
+			</li>
+		</ul>
+	</div></div>";s:4:"code";N;s:12:"parsedMarkup";s:1215:"<div class="index-about clearfix" id="aboutUs">
+	<div class="index-about-left">
+		<div class="container">
+			<div class="index-about-content max-width">
+
+				<h4 class="index-tit">ABOUT US</h4>
+
+				<h5>We are constantly working to increase the level of integration in research.</h5>
+
+				<p>We are an experienced company providing the full range of laboratory tests of products, materials required for certification and standardization.</p><span class="read-more"><a href="/our-company">Read More</a></span></div></div></div>
+	<div class="index-about-right">
+
+		<ul class="index-about-list no-type clearfix">
+			<li>
+				<div class="inner-li">
+					<div class="img"><img src="{imgAssets}/index_about_img2.png" class="fr-fic fr-dii"></div>
+
+					<p>
+						<br>
+					</p>
+				</div>
+			</li>
+			<li>
+				<div class="inner-li">
+					<div class="img"><img src="{imgAssets}/index_about_img3.png" class="fr-fic fr-dii"></div>
+
+					<p>
+						<br>
+					</p>
+				</div>
+			</li>
+			<li>
+				<div class="inner-li">
+					<div class="img"><img src="{imgAssets}/index_about_img4.png" class="fr-fic fr-dii"></div>
+
+					<p>
+						<br>
+					</p>
+				</div>
+			</li>
+		</ul>
+	</div></div>";}}

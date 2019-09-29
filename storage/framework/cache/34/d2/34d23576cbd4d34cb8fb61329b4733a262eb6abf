@@ -1,0 +1,23 @@
+1569747046a:1:{s:16:"our-services.htm";a:14:{s:8:"fileName";s:16:"our-services.htm";s:7:"content";s:523:"title = "Our services"
+url = "/our-services"
+layout = "page"
+description = "Our services"
+meta_title = "Our services"
+meta_description = "Our services"
+is_hidden = 0
+
+[viewBag]
+localeDescription[ru] = "Наши услуги"
+localeMeta_title[ru] = "Наши услуги"
+localeMeta_description[ru] = "Наши услуги"
+
+[localePicker]
+forceUrl = 0
+==
+<div style="display: none">{% component 'localePicker' %}</div>
+
+{% set imgAssets = 'assets/images/'|theme %}
+{% content 'our-services.htm' imgAssets = imgAssets%}";s:5:"mtime";i:1565956546;s:6:"markup";s:166:"<div style="display: none">{% component 'localePicker' %}</div>
+
+{% set imgAssets = 'assets/images/'|theme %}
+{% content 'our-services.htm' imgAssets = imgAssets%}";s:4:"code";N;s:5:"title";s:12:"Our services";s:3:"url";s:13:"/our-services";s:6:"layout";s:4:"page";s:11:"description";s:12:"Our services";s:10:"meta_title";s:12:"Our services";s:16:"meta_description";s:12:"Our services";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:17:"localeDescription";a:1:{s:2:"ru";s:21:"Наши услуги";}s:16:"localeMeta_title";a:1:{s:2:"ru";s:21:"Наши услуги";}s:22:"localeMeta_description";a:1:{s:2:"ru";s:21:"Наши услуги";}}s:12:"localePicker";a:1:{s:8:"forceUrl";s:1:"0";}}}

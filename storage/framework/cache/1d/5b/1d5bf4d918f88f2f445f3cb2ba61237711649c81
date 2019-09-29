@@ -1,0 +1,21 @@
+1569724746a:1:{s:10:"scroll.htm";a:6:{s:8:"fileName";s:10:"scroll.htm";s:7:"content";s:364:"[viewBag]
+==
+<div class="scroll">
+    <div class="scroll-box">
+        <a href="javascript:;" id="scroll-down">
+            <img src="{{ 'assets/images/g.png'|theme }}">
+            <span>{{ 'More About Us'|_ }}</span>
+            <i><img src="{{ 'assets/images/arr_down.png'|theme }}"></i>
+        </a>
+       {% content 'scroll.htm' %}
+    </div>
+</div>";s:5:"mtime";i:1565482810;s:6:"markup";s:351:"<div class="scroll">
+    <div class="scroll-box">
+        <a href="javascript:;" id="scroll-down">
+            <img src="{{ 'assets/images/g.png'|theme }}">
+            <span>{{ 'More About Us'|_ }}</span>
+            <i><img src="{{ 'assets/images/arr_down.png'|theme }}"></i>
+        </a>
+       {% content 'scroll.htm' %}
+    </div>
+</div>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

@@ -1,0 +1,189 @@
+1569635887a:1:{s:8:"page.htm";a:6:{s:8:"fileName";s:8:"page.htm";s:7:"content";s:3034:"description = "Page layout"
+==
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <title>{{ this.page.title|_ }}</title>
+    
+    <meta name="description" content="{{ this.page.meta_description|_ }}">
+    <meta name="title" content="{{ this.page.meta_title|_ }}">
+    
+    <link rel="shortcut icon" href="{{ 'assets/images/favicon.png'|theme }}">
+    
+    <link rel="stylesheet" href="{{'assets/css/public.css'|theme}}" />
+    <link rel="stylesheet" href="{{'assets/css/screen.css'|theme}}" />
+    <link rel="stylesheet" href="{{'assets/css/font_831831_iwffy4dtf9f.css'|theme}}" />
+    
+    <!-- <link rel="stylesheet" href="{{ [
+    'assets/css/public.css',
+    'assets/css/screen.css',
+    'assets/css/font_831831_iwffy4dtf9f.css'
+    ]|theme }}"/> -->
+
+    {% styles %}
+
+    <script src="{{ [
+    'assets/js/jquery-2.2.1.min.js',
+    'assets/js/modernizr-2.8.3.min.js',
+    'assets/js/easyXDM-2.4.19.3.min.js'
+    ]|theme }}"></script>
+    
+    <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        document.addEventListener("touchstart", function() {},false);
+        function MM_jumpMenu(targ,selObj,restore){ //v3.0
+          eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+          if (restore) selObj.selectedIndex=0;
+        }
+        $(function(){
+            console.log($(window).width());
+        });
+
+    </script>
+
+
+</head>
+<body id="ver-en">
+
+    {% partial "header" %}
+    
+    
+    {% page %}
+   
+    {% partial "footer" %}
+    
+    {% partial "phone" %}
+
+    <script src="{{ [
+    'assets/js/jquery.easing.min.js',
+    'assets/js/jquery.matchHeight-min.js',
+    'assets/js/slick.min.js',
+    'assets/js/public.js'        
+    ]|theme }}"></script>
+
+    <script>
+        $('.year-wrap').hover(function(){
+
+            $(this).children('.year-box').show();
+        },function(){
+            $(this).children('.year-box').hide();
+        });
+        $('.year-btn').on('click',function(){
+            //console.log('.'+$(this).data('parent')+' .data-list');
+            $('.'+$(this).data('parent')+' .data-list').hide();
+            $('.'+$(this).data('parent')+' .data-list[data-year='+$(this).data('year')+']').show();
+            $('.'+$(this).data('parent')+' .current-year').html($(this).data('year'));
+        });
+
+        $('.year-btn[data-select="selected"]').each(function(){
+            //console.log($(this));
+            $(this).trigger('click');
+        });
+
+    </script>
+    
+     {% framework extras %}
+    {% scripts %}
+</body>
+</html>";s:5:"mtime";i:1565673505;s:6:"markup";s:3003:"<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <title>{{ this.page.title|_ }}</title>
+    
+    <meta name="description" content="{{ this.page.meta_description|_ }}">
+    <meta name="title" content="{{ this.page.meta_title|_ }}">
+    
+    <link rel="shortcut icon" href="{{ 'assets/images/favicon.png'|theme }}">
+    
+    <link rel="stylesheet" href="{{'assets/css/public.css'|theme}}" />
+    <link rel="stylesheet" href="{{'assets/css/screen.css'|theme}}" />
+    <link rel="stylesheet" href="{{'assets/css/font_831831_iwffy4dtf9f.css'|theme}}" />
+    
+    <!-- <link rel="stylesheet" href="{{ [
+    'assets/css/public.css',
+    'assets/css/screen.css',
+    'assets/css/font_831831_iwffy4dtf9f.css'
+    ]|theme }}"/> -->
+
+    {% styles %}
+
+    <script src="{{ [
+    'assets/js/jquery-2.2.1.min.js',
+    'assets/js/modernizr-2.8.3.min.js',
+    'assets/js/easyXDM-2.4.19.3.min.js'
+    ]|theme }}"></script>
+    
+    <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        document.addEventListener("touchstart", function() {},false);
+        function MM_jumpMenu(targ,selObj,restore){ //v3.0
+          eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+          if (restore) selObj.selectedIndex=0;
+        }
+        $(function(){
+            console.log($(window).width());
+        });
+
+    </script>
+
+
+</head>
+<body id="ver-en">
+
+    {% partial "header" %}
+    
+    
+    {% page %}
+   
+    {% partial "footer" %}
+    
+    {% partial "phone" %}
+
+    <script src="{{ [
+    'assets/js/jquery.easing.min.js',
+    'assets/js/jquery.matchHeight-min.js',
+    'assets/js/slick.min.js',
+    'assets/js/public.js'        
+    ]|theme }}"></script>
+
+    <script>
+        $('.year-wrap').hover(function(){
+
+            $(this).children('.year-box').show();
+        },function(){
+            $(this).children('.year-box').hide();
+        });
+        $('.year-btn').on('click',function(){
+            //console.log('.'+$(this).data('parent')+' .data-list');
+            $('.'+$(this).data('parent')+' .data-list').hide();
+            $('.'+$(this).data('parent')+' .data-list[data-year='+$(this).data('year')+']').show();
+            $('.'+$(this).data('parent')+' .current-year').html($(this).data('year'));
+        });
+
+        $('.year-btn[data-select="selected"]').each(function(){
+            //console.log($(this));
+            $(this).trigger('click');
+        });
+
+    </script>
+    
+     {% framework extras %}
+    {% scripts %}
+</body>
+</html>";s:4:"code";N;s:11:"description";s:11:"Page layout";}}

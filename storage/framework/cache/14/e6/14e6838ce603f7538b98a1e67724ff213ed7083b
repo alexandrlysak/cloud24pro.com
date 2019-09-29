@@ -1,0 +1,24 @@
+1569747046a:1:{s:37:"sertifikaciya-sistem-menedzhmenta.htm";a:14:{s:8:"fileName";s:37:"sertifikaciya-sistem-menedzhmenta.htm";s:7:"content";s:833:"title = "Management System Certification"
+url = "/management-system-certification"
+layout = "page"
+description = "Management System Certification"
+meta_title = "Management System Certification"
+meta_description = "Management System Certification"
+is_hidden = 0
+
+[localePicker]
+forceUrl = 0
+
+[viewBag]
+localeTitle[ru] = "Сертификация систем менеджмента"
+localeDescription[ru] = "Сертификация систем менеджмента"
+localeMeta_title[ru] = "Сертификация систем менеджмента"
+localeMeta_description[ru] = "Сертификация систем менеджмента"
+==
+<div style="display: none">{% component 'localePicker' %}</div>
+
+{% set imgAssets = 'assets/images/'|theme %}
+{% content 'managementSystemCertification.htm' imgAssets = imgAssets%}";s:5:"mtime";i:1566037347;s:6:"markup";s:183:"<div style="display: none">{% component 'localePicker' %}</div>
+
+{% set imgAssets = 'assets/images/'|theme %}
+{% content 'managementSystemCertification.htm' imgAssets = imgAssets%}";s:4:"code";N;s:5:"title";s:31:"Management System Certification";s:3:"url";s:32:"/management-system-certification";s:6:"layout";s:4:"page";s:11:"description";s:31:"Management System Certification";s:10:"meta_title";s:31:"Management System Certification";s:16:"meta_description";s:31:"Management System Certification";s:9:"is_hidden";s:1:"0";s:12:"localePicker";a:1:{s:8:"forceUrl";s:1:"0";}s:7:"viewBag";a:4:{s:11:"localeTitle";a:1:{s:2:"ru";s:60:"Сертификация систем менеджмента";}s:17:"localeDescription";a:1:{s:2:"ru";s:60:"Сертификация систем менеджмента";}s:16:"localeMeta_title";a:1:{s:2:"ru";s:60:"Сертификация систем менеджмента";}s:22:"localeMeta_description";a:1:{s:2:"ru";s:60:"Сертификация систем менеджмента";}}}}

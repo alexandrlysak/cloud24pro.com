@@ -1,0 +1,92 @@
+1569747046a:1:{s:12:"kontakty.htm";a:11:{s:8:"fileName";s:12:"kontakty.htm";s:7:"content";s:1510:"title = "Contact us"
+url = "/contact-us"
+layout = "page"
+is_hidden = 0
+
+[viewBag]
+localeTitle[ru] = "Контакты"
+
+[localePicker]
+forceUrl = 0
+==
+<div style="display: none">{% component 'localePicker' %}</div>
+
+
+<div class="inner-banner contact-us">
+  <div class="inner-banner-tit"> <span>{{ 'Contact us'|_ }}</span> </div>
+</div>
+<article>
+  <div class="container contact-art">
+    <div class="contact-wrap clearfix">
+      <div class="contact-left">
+      
+      
+         {% content 'contact-left.htm' imgAssets = imgAssets%}
+         
+      </div>
+      <div class="contact-right">
+          {% content 'contact-right.htm' imgAssets = imgAssets%}
+        
+        <div class="form">
+          <form id="form">
+            <div class="i-group">
+              <label for="name">Name:</label>
+              <input type="text" class="name" name="name" value="Enter Name">
+            </div>
+            <div class="i-group">
+              <label for="email">Email:</label>
+              <input type="text" class="email" name="email" value="Enter Email">
+            </div>
+            <div class="i-group">
+              <label for="msg">Message:</label>
+              <textarea class="msg" value="Enter Your Message">Enter Your Message</textarea>
+            </div>
+            <div class="submit-btn">
+              <input class="submit" type="submit" value="SUBMIT">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>";s:5:"mtime";i:1567106373;s:6:"markup";s:1359:"<div style="display: none">{% component 'localePicker' %}</div>
+
+
+<div class="inner-banner contact-us">
+  <div class="inner-banner-tit"> <span>{{ 'Contact us'|_ }}</span> </div>
+</div>
+<article>
+  <div class="container contact-art">
+    <div class="contact-wrap clearfix">
+      <div class="contact-left">
+      
+      
+         {% content 'contact-left.htm' imgAssets = imgAssets%}
+         
+      </div>
+      <div class="contact-right">
+          {% content 'contact-right.htm' imgAssets = imgAssets%}
+        
+        <div class="form">
+          <form id="form">
+            <div class="i-group">
+              <label for="name">Name:</label>
+              <input type="text" class="name" name="name" value="Enter Name">
+            </div>
+            <div class="i-group">
+              <label for="email">Email:</label>
+              <input type="text" class="email" name="email" value="Enter Email">
+            </div>
+            <div class="i-group">
+              <label for="msg">Message:</label>
+              <textarea class="msg" value="Enter Your Message">Enter Your Message</textarea>
+            </div>
+            <div class="submit-btn">
+              <input class="submit" type="submit" value="SUBMIT">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>";s:4:"code";N;s:5:"title";s:10:"Contact us";s:3:"url";s:11:"/contact-us";s:6:"layout";s:4:"page";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:1:{s:11:"localeTitle";a:1:{s:2:"ru";s:16:"Контакты";}}s:12:"localePicker";a:1:{s:8:"forceUrl";s:1:"0";}}}

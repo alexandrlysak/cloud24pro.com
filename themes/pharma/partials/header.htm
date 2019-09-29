@@ -1,0 +1,159 @@
+[viewBag]
+
+[localePicker]
+forceUrl = 0
+==
+<header>
+    <div class="container">
+        <div class="head-content clearfix">
+            <div class="h-left">
+                <a class="logo" href="{{ url('/') }}"><img src="{{ 'assets/images/logo.png'|theme }}"></a>
+            </div>
+            <div class="h-right">
+                <div class="h-right-top clearfix">
+                    
+                   <!--  {% component 'localePicker' %} -->
+                    <ul class="lang-list no-type clearfix">
+                        <li{% if activeLocale == 'en' %} class="active"{% endif %}><a href="#" data-request="onSwitchLocale" data-request-data="locale: 'en'"><span>ENG</span></a><i>|</i></li>
+                        <li{% if activeLocale == 'ru' %} class="active"{% endif %}><a href="#" data-request="onSwitchLocale" data-request-data="locale: 'ru'"><span>RU</span></a><i>|</i></li>
+                        <li{% if activeLocale == 'ch' %} class="active"{% endif %}><a href="#" data-request="onSwitchLocale" data-request-data="locale: 'ch'"><span>CH</span></a></li>
+                    </ul>
+
+                   <!--  <p>
+                       Switch language to:
+                       <a href="#" data-request="onSwitchLocale" data-request-data="locale: 'en'">English</a>,
+                       <a href="#" data-request="onSwitchLocale" data-request-data="locale: 'ru'">Russian</a>
+                   </p> -->
+
+                </div>
+                
+                <div class="h-right-btm">
+                    
+                    <nav>
+                        <ul class="nav-list no-type clearfix">
+                            
+                            <li {% if (this.page.id == 'home') %} class="active" {% endif %}><a href="{{ url('/') }}"><span>{{ 'Home'|_ }}</span></a></li>
+                            
+                            <li {% if (this.page.id == 'our-company') %} class="active" {% endif %}><a href="{{ url('/our-company') }}"><span>{{ 'Our company'|_ }}</span></a>
+                                <div class="sub-nav">
+                                    <dl>
+                                        <dd><a href="{{ url('/our-company#our-profile') }}"><span>{{ 'Our Profile'|_ }}</span></a></dd>
+                                        <dd><a href="{{ url('/our-company#our-vision-and-mission') }}"><span>{{ 'Our Vision & Mission'|_ }}</span></a></dd>
+                                        <dd><a href="{{ url('/our-company#our-values') }}"><span>{{ 'Our Values'|_ }}</span></a></dd>
+                                        <dd><a href="{{ url('/our-company#our-culture') }}"><span>{{ 'Our Culture'|_ }}</span></a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            
+                            <li {% if (this.page.id == 'our-businesses') %} class="active" {% endif %}><a href="{{ url('our-businesses') }}"><span>{{ 'Our businesses'|_ }}</span></a>
+                                <div class="sub-nav">
+                                    <dl>
+                                       <!--  <dd><a href="{{ url('/our-businesses#generics') }}"><span>{{ 'Generics'|_ }}</span></a></dd> -->
+                                        <dd><a href="{{ url('/our-businesses#internationalCooperation') }}"><span>{{ 'Interntational cooperation'|_ }}</span></a></dd>
+                                        <!-- <dd><a href="{{ url('/our-businesses#proprietary-medicines') }}"><span>{{ 'Proprietary Medicines'|_ }}</span></a></dd> -->
+                                        <!-- <dd><a href="{{ url('/our-businesses#Biosimilars') }}"><span>{{ 'Biosimilars, Genomics and Clinical Diagnostics'|_ }}</span></a></dd>  -->
+                                        <dd><a href="{{ url('/our-businesses#regional-presence') }}"><span>{{ 'Regional Presence'|_ }}</span></a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li {% if (this.page.id == 'our-services') %} class="active" {% endif %}>
+                                <a href="{{ url('/our-services') }}"><span>{{ 'Our services'|_ }}</span></a>
+                                <div class="sub-nav">
+                                    <dl>
+                                        <dd><a href="{{ url('/our-services#laboratoryResearch') }}"><span>{{ 'Laboratory research'|_ }} </span></a></dd>
+                                        <dd><a href="{{ url('/our-services#certificationOfProducts') }}"><span>{{ 'Certification of products'|_ }}</span></a></dd>
+                                        <dd><a href="{{ url('/our-services#technicalConditions') }}"><span>{{ 'Technical conditions'|_ }}</span></a></dd>
+                                        <dd><a href="{{ url('/our-services#voluntaryCertification') }}"><span>{{ 'Voluntary certification'|_ }}</span></a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <!-- <li {% if (this.page.id == 'our-responsibilities') %} class="active" {% endif %}>
+                                <a href="{{ url('/our-responsibilities') }}"><span>{{ 'Our Responsibilities'|_ }}</span></a>
+                                <div class="sub-nav">
+                                   <dl>
+                                       <dd><a href="{{ url('/our-responsibilities#ourBelief') }}"><span>{{ 'Our Belief'|_ }}</span></a></dd>
+                                       <dd><a href="{{ url('/our-responsibilities#ourCommitment') }}"><span>{{ 'Our Commitment'|_ }}</span></a></dd>
+                                   </dl>
+                                </div>
+                            </li> -->
+                           
+                            
+                            <li {% if (this.page.id == 'management-system-certification') %} class="active" {% endif %}>
+                                <a href="{{ url('/management-system-certification') }}"><span>{{ 'Management System Certification'|_ }}</span></a>
+                                <div class="sub-nav">
+                                    <dl>
+                                        <dd><a href="{{ url('/management-system-certification#haccp') }}"><span>{{ 'HACCP SYSTEM'|_ }} </span></a></dd>
+                                        <dd><a href="{{ url('/management-system-certification#iso15189') }}"><span>{{ 'ISO 15189'|_ }}</span></a></dd>
+                                        <dd><a href="{{ url('/management-system-certification#iso9001') }}"><span>{{ 'ISO 9001'|_ }}</span></a></dd>
+                                        <dd><a href="{{ url('/management-system-certification#iso14001') }}"><span>{{ 'ISO 14001'|_ }}</span></a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            
+                             <li {% if (this.page.id == 'careers') %} class="active" {% endif %}>
+                                <a href="{{ url('/careers') }}"><span>{{ 'Careers'|_ }}</span></a>
+                            </li>
+                            
+                            <li {% if (this.page.id == 'contact-us') %} class="active" {% endif %}>
+                                <a href="{{ url('contact-us') }}"><span>{{ 'Contact us'|_ }}</span></a>
+                            </li>
+                             
+                               <!--  <li class=""><a href="our-rd.php"><span>Our R&D</span></a>
+                                   <div class="sub-nav">
+                                       <dl>
+                                           <dd><a href="our-rd.php#leadership-and-focus"><span>Dedication and Focus</span></a></dd>
+                                           <dd><a href="our-rd.php#collaborations"><span>Collaborations</span></a></dd>
+                                           <dd><a href="our-rd.php#projects-and-awards"><span>Projects and Awards</span></a></dd>
+                                           <dd><a href="our-rd.php#jacobson-research-laboratory"><span>Jacobson Research Laboratory</span></a></dd>
+                                       </dl>
+                                   </div>
+                               </li>
+                               
+                               <li class=""><a href="inverstor-relations.php"><span>Investor <i></i>Relations</span></a>
+                                   <div class="sub-nav">
+                                       <dl>
+                                           <dd><a href="inverstor-relations.php#corporate-information"><span>Corporate Information</span></a></dd>
+                                           <dd><a href="inverstor-relations.php#corporate-governance"><span>Corporate Governance</span></a></dd>
+                                           <dd><a href="inverstor-relations.php#financial-highlights"><span>Financial Highlights</span></a></dd>
+                                           <dd><a href="inverstor-relations.php#financial-reports"><span>Financial Reports</span></a></dd>
+                                           <dd><a href="inverstor-relations.php#announcement-and-circulars"><span>Announcement & Circulars</span></a></dd>
+                                           <dd><a href="inverstor-relations.php#press-releases-and-presentations"><span>Press Releases & Presentations</span></a></dd>
+                                           <dd><a href="inverstor-relations.php#stock-information"><span>Stock Information</span></a></dd>
+                                           <dd><a href="inverstor-calendar.php"><span>Investor Calendar</span></a></dd>
+                                           <dd><a href="inverstor-share.php"><span>Replace of Lost Share Certificates</span></a></dd>
+                                           <dd><a href="inverstor-policy.php"><span>Shareholders Communication Policy</span></a></dd>
+                                           <dd><a href="inverstor-contact.php"><span>IR Contact</span></a></dd>
+                                           <dd><a href="inverstor-email.php"><span>Email Notice</span></a></dd>
+                                       </dl>
+                                   </div>
+                               </li>
+                               <li class=""><a href="careers.php"><span>Careers</span></a>
+                                   <div class="sub-nav">
+                                       <dl>
+                                           <dd><a href="careers.php#why-jacobson"><span>Why Jacobson</span></a></dd>
+                                           <dd><a href="careers.php#join-us"><span>Join Us</span></a></dd>
+                                       </dl>
+                                   </div>
+                               </li>
+                               <li class=""><a href="contact-us.php"><span>Contact Us</span></a>
+                               <div class="sub-nav">
+                                       <dl>
+                                           <dd><a href="contact-us.php#hk"><span>Hong Kong</span></a></dd>
+                                           <dd><a href="contact-us.php#macau"><span>Macau</span></a></dd>
+                                           <dd><a href="contact-us.php#china"><span>China</span></a></dd>
+                                           <dd><a href="contact-us.php#taiwan"><span>Taiwan</span></a></dd>  
+                                           <dd><a href="contact-us.php#singapore"><span>Singapore</span></a></dd>  
+                                       </dl>
+                                   </div>
+                               </li> -->
+                            </ul>
+                        </nav>                    
+                </div>
+                <a id="menu" href="javascript:;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </header>

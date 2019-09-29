@@ -1,0 +1,52 @@
+title = "Contact us"
+url = "/contact-us"
+layout = "page"
+is_hidden = 0
+
+[viewBag]
+localeTitle[ru] = "Контакты"
+
+[localePicker]
+forceUrl = 0
+==
+<div style="display: none">{% component 'localePicker' %}</div>
+
+
+<div class="inner-banner contact-us">
+  <div class="inner-banner-tit"> <span>{{ 'Contact us'|_ }}</span> </div>
+</div>
+<article>
+  <div class="container contact-art">
+    <div class="contact-wrap clearfix">
+      <div class="contact-left">
+      
+      
+         {% content 'contact-left.htm' imgAssets = imgAssets%}
+         
+      </div>
+      <div class="contact-right">
+          {% content 'contact-right.htm' imgAssets = imgAssets%}
+        
+        <div class="form">
+          <form id="form">
+            <div class="i-group">
+              <label for="name">Name:</label>
+              <input type="text" class="name" name="name" value="Enter Name">
+            </div>
+            <div class="i-group">
+              <label for="email">Email:</label>
+              <input type="text" class="email" name="email" value="Enter Email">
+            </div>
+            <div class="i-group">
+              <label for="msg">Message:</label>
+              <textarea class="msg" value="Enter Your Message">Enter Your Message</textarea>
+            </div>
+            <div class="submit-btn">
+              <input class="submit" type="submit" value="SUBMIT">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

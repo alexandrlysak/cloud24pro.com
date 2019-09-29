@@ -1,0 +1,19 @@
+title = "Our company"
+url = "/our-company"
+layout = "page"
+meta_title = "Our company"
+meta_description = "Our company"
+is_hidden = 0
+
+[viewBag]
+localeTitle[ru] = "Наша компания"
+localeMeta_title[ru] = "Наша компания"
+localeMeta_description[ru] = "Наша компания"
+
+[localePicker]
+forceUrl = 0
+==
+<div style="display: none">{% component 'localePicker' %}</div>
+
+{% set imgAssets = 'assets/images/'|theme %}
+{% content 'our-company.htm' imgAssets = imgAssets%}

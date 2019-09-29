@@ -1,0 +1,21 @@
+title = "Management System Certification"
+url = "/management-system-certification"
+layout = "page"
+description = "Management System Certification"
+meta_title = "Management System Certification"
+meta_description = "Management System Certification"
+is_hidden = 0
+
+[localePicker]
+forceUrl = 0
+
+[viewBag]
+localeTitle[ru] = "Сертификация систем менеджмента"
+localeDescription[ru] = "Сертификация систем менеджмента"
+localeMeta_title[ru] = "Сертификация систем менеджмента"
+localeMeta_description[ru] = "Сертификация систем менеджмента"
+==
+<div style="display: none">{% component 'localePicker' %}</div>
+
+{% set imgAssets = 'assets/images/'|theme %}
+{% content 'managementSystemCertification.htm' imgAssets = imgAssets%}
